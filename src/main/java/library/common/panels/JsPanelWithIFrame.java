@@ -5,8 +5,8 @@ package library.common.panels;
 
 import org.openqa.selenium.By;
 
+import core_data.CoreData;
 import library.common.interfaces.IFrame;
-import library.dakar_hr.pages.homepage.CoreData;
 
 /**
  * @author SteveBrown

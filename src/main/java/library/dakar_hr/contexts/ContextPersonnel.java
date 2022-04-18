@@ -6,8 +6,8 @@ package library.dakar_hr.contexts;
 import context_manager.ContextIdGetter;
 import context_manager.FirstContext;
 import context_manager.contexts.Context;
+import core_data.CoreData;
 import library.common.forms.ContainerAction;
-import library.dakar_hr.pages.homepage.CoreData;
 
 
 /**

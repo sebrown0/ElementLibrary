@@ -9,12 +9,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import helpers.DriverWait;
-import helpers.text_utils.TextExtractor;
-import helpers.text_utils.TextSanitiser;
+import core_data.CoreData;
 import library.common.controls.getters.ElementGetter;
 import library.common.controls.interfaces.Control;
-import library.dakar_hr.pages.homepage.CoreData;
+import utils.driver.DriverWait;
+import utils.text_utils.TextExtractor;
+import utils.text_utils.TextSanitiser;
 
 
 /**

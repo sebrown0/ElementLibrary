@@ -8,12 +8,11 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import helpers.text_writer.TextWriterComboDefault;
+import core_data.CoreData;
 import library.common.exceptions.ElementDoesNotExistException;
 import library.dakar_hr.dk_grid.Cell;
 import library.dakar_hr.dk_grid.Popup;
-import library.dakar_hr.pages.homepage.CoreData;
-//import object_models.helpers.text_writer.TextWriterComboDefault;
+import utils.text_writer.TextWriterComboDefault;
 
 /**
  * @author Steve Brown

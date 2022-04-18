@@ -24,6 +24,7 @@ import context_manager.states.StateIframe;
 import control_builder.ControlBuilder;
 import control_builder.PageControl;
 import control_data.ControlData;
+import core_data.CoreData;
 import library.common.controls.interfaces.Control;
 import library.common.controls.interfaces.ControlName;
 import library.common.helpers.title.PageTitle;
@@ -31,7 +32,6 @@ import library.common.helpers.title.TitleModalForm;
 import library.common.interfaces.Header;
 import library.common.interfaces.IFrame;
 import library.common.panels.JsPanelHeaderBar;
-import library.dakar_hr.pages.homepage.CoreData;
 
 
 /**

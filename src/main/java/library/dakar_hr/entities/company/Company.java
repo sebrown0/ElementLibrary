@@ -6,8 +6,8 @@ package library.dakar_hr.entities.company;
 import java.util.List;
 
 import library.dakar_hr.entities.payroll.PayGroup;
-import utils.ListSetter;
-import utils.ListTestFind;
+import utils.list.ListSetter;
+import utils.list.ListTestFind;
 
 /**
  * @author SteveBrown

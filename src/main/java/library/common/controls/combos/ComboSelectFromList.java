@@ -9,10 +9,10 @@ import java.util.Optional;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
+import core_data.CoreData;
 import library.common.controls.getters.TextGetter;
 import library.common.controls.interfaces.DisplayedTextList;
 import library.common.controls.reset.ReloadContainer;
-import library.dakar_hr.pages.homepage.CoreData;
 import library.element.ListBox;
 
 /**

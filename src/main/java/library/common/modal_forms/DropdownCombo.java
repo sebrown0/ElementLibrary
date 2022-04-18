@@ -9,18 +9,12 @@ import org.openqa.selenium.WebElement;
 
 import context_manager.ContextId;
 import context_manager.states.StateHeaderForm;
+import core_data.CoreData;
 import library.common.controls.getters.ElementGetter;
 import library.common.controls.interfaces.Control;
 import library.common.forms.FormHeader;
 import library.common.forms.FormWithIFrame;
 import library.common.interfaces.Header;
-import library.dakar_hr.pages.homepage.CoreData;
-//import controls.getters.ElementGetter;
-//import controls.interfaces.Control;
-//import helpers.Header;
-//import object_models.forms.FormHeader;
-//import object_models.forms.FormWithIFrame;
-//import object_models.pages.homepage.CoreData;
 
 /**
  * @author SteveBrown

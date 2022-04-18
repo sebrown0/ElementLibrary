@@ -4,10 +4,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import core_data.CoreData;
 import library.common.controls.getters.ElementGetter;
 import library.common.controls.interfaces.Control;
 import library.common.panels.JsPanelWithIFrame;
-import library.dakar_hr.pages.homepage.CoreData;
 
 
 /**

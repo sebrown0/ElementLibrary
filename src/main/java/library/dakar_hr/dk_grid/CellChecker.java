@@ -12,8 +12,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
+import core_data.CoreData;
 import library.common.controls.combos.PopupComboSelect;
-import library.dakar_hr.pages.homepage.CoreData;
 import library.date_picker.DatePickerPopup;
 
 /**

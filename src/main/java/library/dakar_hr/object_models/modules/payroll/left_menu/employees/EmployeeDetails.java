@@ -4,11 +4,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 import context_manager.states.StateIframe;
+import core_data.CoreData;
 import library.common.controls.combos.ComboSelectFromList;
 import library.common.controls.interfaces.ControlTest;
 import library.common.controls.with_text.TextOut;
 import library.common.panels.JsPanelWithIFrame;
-import library.dakar_hr.pages.homepage.CoreData;
 import library.element.TextInOut;
 import site_mapper.annotations.SiteMap;
 

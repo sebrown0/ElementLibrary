@@ -6,8 +6,8 @@ package library.common.controls.with_text;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import dynamic_tests.test_adders.TestAdderWithData;
-import dynamic_tests.test_elements.DataInserter;
+//import dynamic_tests.test_adders.TestAdderWithData;
+//import dynamic_tests.test_elements.DataInserter;
 import library.common.controls.data.InsertItem;
 import library.common.controls.interfaces.ControlTest;
 

@@ -2,6 +2,7 @@ package library.dakar_hr.pages.homepage;
 
 import java.util.Optional;
 
+import core_data.CoreData;
 import library.common.forms.ContainerAction;
 import library.dakar_hr.entities.company.Company;
 import library.dakar_hr.entities.payroll.PayGroup;

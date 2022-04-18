@@ -9,12 +9,12 @@ import context_manager.ContextManager;
 import context_manager.ContextState;
 import context_manager.states.State;
 import context_manager.states.StateModule;
+import core_data.CoreData;
 import library.dakar_hr.entities.company.Company;
 import library.dakar_hr.entities.company.LoaderCompany;
 import library.dakar_hr.exceptions.HomePageElementException;
 import library.dakar_hr.left_menu.LeftMenu;
 import library.dakar_hr.left_nav_bar.LeftNavBar;
-import library.dakar_hr.pages.homepage.CoreData;
 import library.dakar_hr.pages.homepage.HomePage;
 import library.dakar_hr.top_right_nav_bar.TopRightNavBar;
 

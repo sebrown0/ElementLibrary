@@ -7,8 +7,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import content.EmployeeContent;
-import control_mapping.PageMap;
 import helpers.Jquery;
+import library.common.control_mapping.PageMap;
 
 /**
  * @author SteveBrown

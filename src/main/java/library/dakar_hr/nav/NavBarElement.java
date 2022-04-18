@@ -11,8 +11,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import context_manager.ContextManager;
+import core_data.CoreData;
 import helpers.Closable;
-import library.dakar_hr.pages.homepage.CoreData;
 
 
 /**

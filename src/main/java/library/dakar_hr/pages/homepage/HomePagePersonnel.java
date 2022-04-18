@@ -1,5 +1,7 @@
 package library.dakar_hr.pages.homepage;
 
+import core_data.CoreData;
+
 /**
  * @author SteveBrown
  * @version 1.0

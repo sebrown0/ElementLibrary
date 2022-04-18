@@ -6,11 +6,11 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import core_data.CoreData;
+import core_data.CoreDataLoader;
 import library.dakar_hr.entities.user.User;
 import library.dakar_hr.exceptions.HomePageElementException;
 import library.dakar_hr.pages.LoadablePage;
-import library.dakar_hr.pages.homepage.CoreData;
-import library.dakar_hr.pages.homepage.CoreDataLoader;
 import library.dakar_hr.pages.homepage.HomePage;
 import library.dakar_hr.pages.homepage.loader.HomePageElements;
 import library.dakar_hr.pages.homepage.loader.NewHomePageLoader;

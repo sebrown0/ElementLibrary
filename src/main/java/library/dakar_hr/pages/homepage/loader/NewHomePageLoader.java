@@ -2,8 +2,8 @@ package library.dakar_hr.pages.homepage.loader;
 
 import org.openqa.selenium.WebDriver;
 
+import core_data.CoreDataLoader;
 import library.dakar_hr.exceptions.HomePageElementException;
-import library.dakar_hr.pages.homepage.CoreDataLoader;
 import library.dakar_hr.pages.homepage.HomePage;
 
 /**

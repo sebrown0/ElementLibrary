@@ -5,6 +5,7 @@ package library.dakar_hr.left_menu;
 
 import org.apache.logging.log4j.LogManager;
 
+import core_data.CoreData;
 import library.common.forms.ContainerAction;
 import library.dakar_hr.helpers.payroll_initialise.InitialisePayroll;
 import library.dakar_hr.object_models.modules.payroll.left_menu.Documents;
@@ -44,57 +45,6 @@ import library.dakar_hr.object_models.modules.payroll.left_menu.reports.GlobalPa
 import library.dakar_hr.object_models.modules.payroll.left_menu.reports.HrRelatedReports;
 import library.dakar_hr.object_models.modules.payroll.left_menu.reports.PayrollReports;
 import library.dakar_hr.object_models.modules.payroll.left_menu.reports.Payslips;
-import library.dakar_hr.pages.homepage.CoreData;
-//import object_models.forms.ContainerAction;
-//import object_models.left_menu.additional_hours.ApplyAdditionalHours;
-//import object_models.left_menu.additional_hours.Authorisation;
-//import object_models.modules.common.EmployeeList;
-//import object_models.modules.payroll.left_menu.Documents;
-//import object_models.modules.payroll.left_menu.MonthlyReports;
-//import object_models.modules.payroll.left_menu.PayrollStatistics;
-//import object_models.modules.payroll.left_menu.SettingsPayroll;
-//import object_models.modules.payroll.left_menu.YearlyReports;
-//import object_models.modules.payroll.left_menu.absence_statistics.EmployeeAccruals;
-//import object_models.modules.payroll.left_menu.absence_statistics.OtherAbsenceStatistics;
-//import object_models.modules.payroll.left_menu.bulk_updates.ColaSalaryUpdates;
-//import object_models.modules.payroll.left_menu.bulk_updates.EmployeeCreation;
-//import object_models.modules.payroll.left_menu.employee_others.AbsenceEntitlements;
-//import object_models.modules.payroll.left_menu.employee_others.AdvancesAndPayments;
-//import object_models.modules.payroll.left_menu.employee_others.Covid19Supplement;
-//import object_models.modules.payroll.left_menu.employee_others.Loans;
-//import object_models.modules.payroll.left_menu.employee_others.Pensions;
-//import object_models.modules.payroll.left_menu.employee_others.TaxArrears;
-//import object_models.modules.payroll.left_menu.employee_statistics.Fs3QuickView;
-//import object_models.modules.payroll.left_menu.employee_statistics.PayslipQuickView;
-//import object_models.modules.payroll.left_menu.employees.Banks;
-//import object_models.modules.payroll.left_menu.employees.CareerProgression;
-//import object_models.modules.payroll.left_menu.employees.ContactNumbers;
-//import object_models.modules.payroll.left_menu.employees.EmployeeDetails;
-//import object_models.modules.payroll.left_menu.employees.PermanentAllowances;
-//import object_models.modules.payroll.left_menu.employees.PreviousEmployement;
-//import object_models.modules.payroll.left_menu.employees.SalaryDetails;
-//import object_models.modules.payroll.left_menu.employees.Schedule;
-//import object_models.modules.payroll.left_menu.employees.Unions;
-//import object_models.modules.payroll.left_menu.payroll.CalculatePayroll;
-//import object_models.modules.payroll.left_menu.payroll.CalculationStatistics;
-//import object_models.modules.payroll.left_menu.payroll.CloseAndLockPayroll;
-//import object_models.modules.payroll.left_menu.payroll.DetailedAdjustments;
-//import object_models.modules.payroll.left_menu.payroll.ExcelPayrollUploads;
-//import object_models.modules.payroll.left_menu.payroll.GlobalAbsences;
-//import object_models.modules.payroll.left_menu.payroll.GlobalAdjustments;
-//import object_models.modules.payroll.left_menu.payroll.GlobalExtras;
-//import object_models.modules.payroll.left_menu.payroll.PayrollDetails;
-//import object_models.modules.payroll.left_menu.payroll.PayrollDetailsDrillDown;
-//import object_models.modules.payroll.left_menu.payroll.initialise.InitialisePayroll;
-//import object_models.modules.payroll.left_menu.reports.AbsenceRelatedReports;
-//import object_models.modules.payroll.left_menu.reports.AdjustmentsReports;
-//import object_models.modules.payroll.left_menu.reports.ChequePrinting;
-//import object_models.modules.payroll.left_menu.reports.DirectCredits;
-//import object_models.modules.payroll.left_menu.reports.GlobalPayrollAnalysis;
-//import object_models.modules.payroll.left_menu.reports.HrRelatedReports;
-//import object_models.modules.payroll.left_menu.reports.PayrollReports;
-//import object_models.modules.payroll.left_menu.reports.Payslips;
-//import object_models.modules.common.EmployeeList;
 
 /**
  * @author SteveBrown

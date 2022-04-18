@@ -11,15 +11,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import content.EmployeeContent;
-import control_mapping.MapControl;
-import control_mapping.MapControlCombo;
-import control_mapping.MapControlText;
-import control_mapping.MappingStrategy;
-import control_mapping.PageMap;
-import control_mapping.PageMapper;
+import core_data.CoreData;
+import library.common.control_mapping.MapControl;
+import library.common.control_mapping.MapControlCombo;
+import library.common.control_mapping.MapControlText;
+import library.common.control_mapping.MappingStrategy;
+import library.common.control_mapping.PageMap;
+import library.common.control_mapping.PageMapper;
 import library.common.forms.FormFadeShow;
-import library.dakar_hr.pages.homepage.CoreData;
-//import object_models.forms.FormFadeShow;
 
 /**
  * @author SteveBrown

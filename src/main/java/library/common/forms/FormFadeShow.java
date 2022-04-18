@@ -11,8 +11,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import context_manager.ContextId;
+import core_data.CoreData;
 import library.common.helpers.title.TitleModalFadeShow;
-import library.dakar_hr.pages.homepage.CoreData;
 import library.element.ElementClicker;
 
 /**

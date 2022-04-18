@@ -17,9 +17,9 @@ import context_manager.ContextManager;
 import context_manager.ContextState;
 import context_manager.states.State;
 import context_manager.states.StateLeftMenu;
-import control_mapping.MenuMap;
+import core_data.CoreData;
+import library.common.control_mapping.MenuMap;
 import library.common.forms.ContainerAction;
-import library.dakar_hr.pages.homepage.CoreData;
 
 
 

@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import helpers.Closable;
+import library.common.helpers.element.Closable;
 
 /**
  * @author Steve Brown

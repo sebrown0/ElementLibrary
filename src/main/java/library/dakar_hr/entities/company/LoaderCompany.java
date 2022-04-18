@@ -7,8 +7,8 @@ import java.util.Optional;
 
 import org.apache.logging.log4j.Logger;
 
+import core_data.CoreData;
 import library.dakar_hr.left_nav_bar.LeftNavBar;
-import library.dakar_hr.pages.homepage.CoreData;
 
 /**
  * @author SteveBrown

@@ -6,10 +6,10 @@ package library.dakar_hr.object_models.modules.payroll.top_right_nav.employees;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import content.EmployeeContent;
+import core_data.CoreData;
 import library.common.forms.FormFadeShow;
 import library.dakar_hr.nav.NavBarElement;
 import library.dakar_hr.nav.nav_bar_elements.NavBarEmployeeCreation;
-import library.dakar_hr.pages.homepage.CoreData;
 import library.dakar_hr.pages.homepage.HomePage;
 import providers.XMLFileProvider;
 import providers.employee.EmployeeFromXml;

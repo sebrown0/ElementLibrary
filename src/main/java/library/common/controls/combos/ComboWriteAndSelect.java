@@ -5,12 +5,11 @@ package library.common.controls.combos;
 
 import org.openqa.selenium.By;
 
-import helpers.text_utils.RemoveX;
-import helpers.text_utils.TextExtractor;
-import helpers.text_utils.TextSanitiser;
-import helpers.text_writer.TextWriter;
-import library.dakar_hr.pages.homepage.CoreData;
-
+import core_data.CoreData;
+import utils.text_utils.RemoveX;
+import utils.text_utils.TextExtractor;
+import utils.text_utils.TextSanitiser;
+import utils.text_writer.TextWriter;
 
 /**
  * @author Steve Brown

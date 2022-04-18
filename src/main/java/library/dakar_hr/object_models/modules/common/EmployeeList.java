@@ -6,9 +6,9 @@ package library.dakar_hr.object_models.modules.common;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
+import core_data.CoreData;
 import library.common.controls.combos.ComboSelectFromOptions;
 import library.common.panels.JsPanelWithIFrame;
-import library.dakar_hr.pages.homepage.CoreData;
 
 /**
  * @author Steve Brown

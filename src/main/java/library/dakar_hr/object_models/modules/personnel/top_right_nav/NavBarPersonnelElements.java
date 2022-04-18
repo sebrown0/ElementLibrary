@@ -4,6 +4,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import core_data.CoreData;
 import library.dakar_hr.nav.NavBarElement;
 import library.dakar_hr.nav.nav_bar_elements.NavBarDakarIntelligence;
 import library.dakar_hr.nav.nav_bar_elements.NavBarElementStrategy;
@@ -19,7 +20,6 @@ import library.dakar_hr.nav.nav_bar_elements.NavBarTerminations;
 import library.dakar_hr.nav.nav_bar_elements.NavBarVisualReports;
 import library.dakar_hr.nav.quick_links.QuickLinks;
 import library.dakar_hr.nav.quick_links.QuickLinksPersonnel;
-import library.dakar_hr.pages.homepage.CoreData;
 
 /**
  * @author Steve Brown

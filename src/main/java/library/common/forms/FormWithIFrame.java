@@ -7,8 +7,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import context_manager.states.StateIframe;
+import core_data.CoreData;
 import library.common.interfaces.IFrame;
-import library.dakar_hr.pages.homepage.CoreData;
 
 /**
  * @author SteveBrown

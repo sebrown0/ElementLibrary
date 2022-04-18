@@ -7,7 +7,7 @@ import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 
 import content.EmployeeContent;
-import control_mapping.PageMap;
+import library.common.control_mapping.PageMap;
 
 /**
  * @author SteveBrown

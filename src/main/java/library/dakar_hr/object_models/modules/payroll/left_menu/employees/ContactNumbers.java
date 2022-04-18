@@ -13,9 +13,9 @@ import control_builder.control_getters.group.ControlGetterGroup;
 import control_builder.control_getters.group.ControlGetterInputGroup;
 import control_builder.control_getters.single.ControlGetterTextOut;
 import control_data.ControlData;
+import core_data.CoreData;
 import dynamic_tests.annotations.TestControl;
 import library.common.panels.JsPanelWithIFrame;
-import library.dakar_hr.pages.homepage.CoreData;
 import site_mapper.annotations.SiteMap;
 
 /**

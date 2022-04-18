@@ -2,11 +2,11 @@ package library.dakar_hr.pages.homepage.loader;
 
 import context_manager.ContextManager;
 import context_manager.contexts.Context;
+import core_data.CoreData;
 import library.dakar_hr.entities.company.Company;
 import library.dakar_hr.left_menu.LeftMenu;
 import library.dakar_hr.nav.nav_bar_elements.NavBarElementStrategy;
 import library.dakar_hr.nav.quick_links.QuickLink;
-import library.dakar_hr.pages.homepage.CoreData;
 import library.dakar_hr.pages.homepage.HomePage;
 
 

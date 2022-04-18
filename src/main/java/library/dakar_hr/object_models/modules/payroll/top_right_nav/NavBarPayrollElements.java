@@ -6,12 +6,12 @@ import java.util.stream.Stream;
 
 import org.openqa.selenium.WebDriver;
 
+import core_data.CoreData;
 import library.dakar_hr.nav.NavBarElement;
 import library.dakar_hr.nav.nav_bar_elements.NavBarElementStrategy;
 import library.dakar_hr.nav.nav_bar_elements.NavBarEmployeeCreation;
 import library.dakar_hr.nav.quick_links.QuickLinks;
 import library.dakar_hr.nav.quick_links.QuickLinksPayroll;
-import library.dakar_hr.pages.homepage.CoreData;
 /**
 * Generated Class.
 * ----------------

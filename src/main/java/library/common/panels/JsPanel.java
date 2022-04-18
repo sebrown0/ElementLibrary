@@ -14,6 +14,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+//import com.sun.beans.finder.MethodFinder;
+
 //import common.JsPanelHeaderBar;
 import context_manager.ContextId;
 import context_manager.ContextIdGetter;
@@ -28,10 +30,10 @@ import control_builder.ControlBuilder;
 import control_builder.PageControl;
 import control_builder.control_getters.ControlGetter;
 import control_data.ControlData;
-import dynamic_tests.elements.SiteMapElement;
-import dynamic_tests.finders.MethodFinder;
-import dynamic_tests.finders.MethodGetter;
-import exceptions.PanelException;
+import core_data.CoreData;
+//import dynamic_tests.elements.SiteMapElement;
+//import dynamic_tests.finders.MethodGetter;
+//import exceptions.PanelException;
 import library.common.controls.getters.ControlGetterFromPanel;
 import library.common.controls.interfaces.Control;
 import library.common.controls.interfaces.ControlName;
@@ -40,9 +42,6 @@ import library.common.forms.ContainerAction;
 import library.common.helpers.title.PageTitle;
 import library.common.helpers.title.TitlePanel;
 import library.common.interfaces.IFrame;
-import library.dakar_hr.pages.homepage.CoreData;
-//import object_models.helpers.title.PageTitle;
-//import object_models.helpers.title.TitlePanel;
 
 /**
  * @author SteveBrown

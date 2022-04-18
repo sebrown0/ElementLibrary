@@ -11,6 +11,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import context_manager.ContextManager;
+import core_data.CoreData;
 import helpers.DriverWait;
 import library.common.forms.ContainerAction;
 import library.common.forms.ModalCloser;

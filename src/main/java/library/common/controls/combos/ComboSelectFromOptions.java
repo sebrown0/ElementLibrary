@@ -6,7 +6,7 @@ package library.common.controls.combos;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-import library.dakar_hr.pages.homepage.CoreData;
+import core_data.CoreData;
 
 /**
  * @author Steve Brown

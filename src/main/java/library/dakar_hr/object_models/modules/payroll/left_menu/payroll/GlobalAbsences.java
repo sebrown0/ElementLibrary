@@ -1,7 +1,7 @@
 package library.dakar_hr.object_models.modules.payroll.left_menu.payroll;
 
+import core_data.CoreData;
 import library.common.panels.JsPanelWithIFrame;
-import library.dakar_hr.pages.homepage.CoreData;
 
 /**
  * @author Steve Brown
