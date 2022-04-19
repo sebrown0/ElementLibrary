@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import context_manager.ContextManager;
 import core_data.CoreData;
-import helpers.Closable;
+import library.common.helpers.element.Closable;
 
 
 /**

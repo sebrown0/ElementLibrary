@@ -1,6 +1,6 @@
 package library.dakar_hr.pages.homepage;
 
-import static providers.PageTitleProvider.HOME_PAGE_TITLE;
+import static library.dakar_hr.providers.PageTitleProvider.*;
 
 import java.time.Duration;
 import java.util.Optional;
@@ -12,7 +12,6 @@ import org.openqa.selenium.WebElement;
 
 import context_manager.ContextManager;
 import core_data.CoreData;
-import helpers.DriverWait;
 import library.common.forms.ContainerAction;
 import library.common.forms.ModalCloser;
 import library.dakar_hr.entities.company.Company;
@@ -23,6 +22,7 @@ import library.dakar_hr.nav.NavBarElement;
 import library.dakar_hr.object_models.modules.ModuleElementsFactory;
 import library.dakar_hr.pages.homepage.loader.ExistingHomePageLoader;
 import library.dakar_hr.top_right_nav_bar.TopRightNavBar;
+import utils.driver.DriverWait;
 
 
 /**

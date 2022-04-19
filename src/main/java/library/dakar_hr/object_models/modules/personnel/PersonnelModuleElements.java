@@ -24,7 +24,7 @@ import library.dakar_hr.object_models.modules.personnel.top_right_nav.NavBarPers
 import library.dakar_hr.pages.homepage.HomePage;
 import library.dakar_hr.pages.homepage.HomePagePersonnel;
 import library.dakar_hr.pages.homepage.loader.HomePageElements;
-import providers.ModuleNames;
+import library.dakar_hr.providers.ModuleNames;
 
 
 /**

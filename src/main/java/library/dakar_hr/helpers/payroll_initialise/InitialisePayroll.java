@@ -7,12 +7,12 @@ import org.openqa.selenium.WebElement;
 
 import control_data.ControlData;
 import core_data.CoreData;
-import exceptions.PayrollAlreadyInitialisedException;
 import factories.ControlDataFactory;
 import library.common.controls.button.Button;
 import library.common.controls.with_text.TextSelect;
 import library.common.forms.FormWithIFrame;
 import library.dakar_hr.enums.control_names.PayrollControlNames;
+import library.dakar_hr.exceptions.PayrollAlreadyInitialisedException;
 import library.dakar_hr.object_models.dialog.DialogOkCancel;
 import library.dakar_hr.object_models.modules.payroll.left_menu.payroll.PayrollElement;
 

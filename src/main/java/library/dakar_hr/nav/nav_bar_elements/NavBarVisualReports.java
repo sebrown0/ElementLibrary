@@ -7,10 +7,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 import core_data.CoreData;
-import helpers.Closable;
-import helpers.NoElement;
+import library.common.helpers.element.Closable;
+import library.common.helpers.element.NoElement;
+import library.common.strategies.ClickUsingJavaScript;
 import library.dakar_hr.nav.NavBarElement;
-import strategies.ClickUsingJavaScript;
 
 /**
  * @author SteveBrown

@@ -26,9 +26,7 @@ import library.dakar_hr.object_models.modules.payroll.top_right_nav.NavBarPayrol
 import library.dakar_hr.pages.homepage.HomePage;
 import library.dakar_hr.pages.homepage.HomePagePayroll;
 import library.dakar_hr.pages.homepage.loader.HomePageElements;
-//import object_models.modules.payroll.top_right_nav.NavBarPayrollElements;
-//import object_models.top_right_nav_bar.payroll.NavBarPayrollElements;
-import providers.ModuleNames;
+import library.dakar_hr.providers.ModuleNames;
 
 /**
  * @author SteveBrown

@@ -2,8 +2,8 @@ package library.dakar_hr.pages;
 
 import org.openqa.selenium.WebDriver;
 
-import exceptions.IncorrectPageException;
-import helpers.LoadPage;
+import library.common.exceptions.IncorrectPageException;
+import library.common.helpers.loaders.LoadPage;
 import library.dakar_hr.pages.homepage.Page;
 
 /**

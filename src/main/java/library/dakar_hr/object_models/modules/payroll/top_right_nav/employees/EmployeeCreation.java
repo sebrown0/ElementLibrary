@@ -6,13 +6,13 @@ import java.util.List;
 import org.junit.jupiter.api.DynamicTest;
 import org.openqa.selenium.By;
 
+import annotations.TestControl;
 import control_builder.control_getters.ControlGetter;
 import control_builder.control_getters.group.ControlGetterGroup;
 import control_builder.control_getters.group.ControlGetterInputGroup;
 import control_builder.control_getters.single.ControlGetterButton;
 import control_data.ControlData;
 import core_data.CoreData;
-import dynamic_tests.annotations.TestControl;
 import library.common.panels.JsPanelWithIFrame;
 import library.dakar_hr.helpers.employee_creation.EmployeeCreationWizard;
 import site_mapper.annotations.SiteMap;

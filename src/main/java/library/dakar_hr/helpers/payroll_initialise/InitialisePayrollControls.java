@@ -6,10 +6,10 @@ import org.openqa.selenium.By;
 
 import control_data.ControlData;
 import factories.ControlDataFactory;
-import helpers.ElementControls;
 import library.common.controls.interfaces.ControlTest;
 import library.dakar_hr.enums.control_names.CommonControlNames;
 import library.dakar_hr.enums.control_names.PayrollControlNames;
+import library.element.ElementControls;
 
 /**
  * @author SteveBrown

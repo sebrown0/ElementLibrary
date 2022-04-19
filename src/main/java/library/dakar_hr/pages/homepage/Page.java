@@ -5,8 +5,8 @@ import org.openqa.selenium.WebDriver;
 
 import context_manager.ContextState;
 import context_manager.states.StateFactorySetter;
-import helpers.Closable;
 import library.common.forms.ContainerAction;
+import library.common.helpers.element.Closable;
 import library.common.helpers.title.PageTitle;
 import library.common.helpers.title.TitlePage;
 

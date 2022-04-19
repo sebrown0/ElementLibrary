@@ -9,6 +9,7 @@ import java.util.List;
 import org.junit.jupiter.api.DynamicTest;
 import org.openqa.selenium.By;
 
+import annotations.TestControl;
 import control_builder.control_getters.ControlGetter;
 import control_builder.control_getters.group.ControlGetterGroup;
 import control_builder.control_getters.group.ControlGetterInputGroup;
@@ -19,7 +20,6 @@ import control_builder.control_getters.single.ControlGetterLabel;
 import control_builder.control_getters.single.ControlGetterTextOut;
 import control_data.ControlData;
 import core_data.CoreData;
-import dynamic_tests.annotations.TestControl;
 import library.common.panels.JsPanelWithIFrame;
 import site_mapper.annotations.SiteMap;
 //import object_models.panels.JsPanelWithIFrame;

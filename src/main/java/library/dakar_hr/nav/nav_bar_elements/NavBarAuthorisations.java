@@ -6,9 +6,9 @@ package library.dakar_hr.nav.nav_bar_elements;
 import org.openqa.selenium.By;
 
 import core_data.CoreData;
-import helpers.Closable;
+import library.common.helpers.element.Closable;
+import library.common.strategies.ClickUsingJavaScript;
 import library.dakar_hr.nav.NavBarElement;
-import strategies.ClickUsingJavaScript;
 
 /**
  * @author Steve Brown

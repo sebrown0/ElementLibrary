@@ -5,14 +5,14 @@ package library.dakar_hr.object_models.modules.payroll.top_right_nav.employees;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import content.EmployeeContent;
 import core_data.CoreData;
 import library.common.forms.FormFadeShow;
 import library.dakar_hr.nav.NavBarElement;
 import library.dakar_hr.nav.nav_bar_elements.NavBarEmployeeCreation;
 import library.dakar_hr.pages.homepage.HomePage;
+import library.dakar_hr.providers.employee.EmployeeFromXml;
 import providers.XMLFileProvider;
-import providers.employee.EmployeeFromXml;
+//import site_mapper.jaxb.pom.content.EmployeeContent;
 
 /**
  * @author SteveBrown
@@ -35,7 +35,7 @@ public class CreateExitingEmployee implements TestFunction {
 				new EmployeeFromXml(XMLFileProvider.EMPLOYEE_TESTS_FILE_PATH);
 		
 		// GET AN EMPLOYEE FROM XML				
-		EmployeeContent emp = empProvider.getFirstEmployeeWithCompleteContent();
+		content.EmployeeContent emp = empProvider.getFirstEmployeeWithCompleteContent();
 			
 		// GET THE EMPLOYEE WIZARD
 		EmployeeCreation	empCreation = (EmployeeCreation) navEmpWizard.clickElement();

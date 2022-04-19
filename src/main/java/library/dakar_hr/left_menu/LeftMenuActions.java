@@ -15,8 +15,8 @@ import org.openqa.selenium.WebElement;
 import context_manager.ContextManager;
 import context_manager.ContextState;
 import core_data.CoreData;
-import helpers.ClassFieldGetter;
 import library.common.forms.ContainerAction;
+import utils.clazz.ClassFieldGetter;
 
 /**
  * @author SteveBrown

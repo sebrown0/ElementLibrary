@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.openqa.selenium.WebElement;
 
-import dto.ButtonData;
+import library.dakar_hr.dto.ButtonData;
 
 /** 
  * @author Steve Brown

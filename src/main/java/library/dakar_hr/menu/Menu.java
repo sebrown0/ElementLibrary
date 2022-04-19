@@ -11,7 +11,7 @@ import java.util.Map;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-import utils.StringUtil;
+import utils.text_utils.StringUtil;
 
 /**
  * @author Steve Brown

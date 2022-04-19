@@ -8,8 +8,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import utils.HrefJavascript;
-import utils.HrefLink;
+import utils.href.HrefJavascript;
+import utils.href.HrefLink;
 
 /**
  * @author SteveBrown

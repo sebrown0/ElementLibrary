@@ -7,13 +7,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 import core_data.CoreData;
-import helpers.Closable;
+import library.common.helpers.element.Closable;
+import library.common.strategies.ClickUsingJavaScript;
 import library.dakar_hr.nav.NavBarElement;
-import strategies.ClickUsingJavaScript;
-//import object_models.employee.EmployeeGridView;
-//import object_models.modules.common.nav.NavBarElement;
-//import object_models.pages.homepage.CoreData;
-//import object_models.strategies.click.ClickUsingJavaScript;
 
 /**
  * @author Steve Brown

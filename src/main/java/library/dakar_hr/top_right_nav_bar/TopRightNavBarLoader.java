@@ -10,10 +10,10 @@ import org.apache.logging.log4j.Logger;
 
 import context_manager.ContextManager;
 import context_manager.ContextState;
-import helpers.ClassFieldGetter;
 import library.common.forms.ContainerAction;
 import library.dakar_hr.left_menu.MenuContextChecker;
 import library.dakar_hr.nav.NavBarElement;
+import utils.clazz.ClassFieldGetter;
 
 
 /**

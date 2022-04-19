@@ -5,9 +5,9 @@ package library.dakar_hr.entities.payroll;
 
 import java.util.List;
 
-import utils.ListSetter;
-import utils.ListTestFind;
-import utils.ListTestPredicate;
+import utils.list.ListSetter;
+import utils.list.ListTestFind;
+import utils.list.ListTestPredicate;
 
 /**
  * @author SteveBrown
