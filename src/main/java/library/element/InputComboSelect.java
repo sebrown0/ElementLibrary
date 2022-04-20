@@ -12,7 +12,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import library.dakar_hr.dk_grid.Popup;
+import marker_interfaces.Popup;
 
 
 /**

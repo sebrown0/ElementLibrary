@@ -9,7 +9,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import library.dakar_hr.dk_grid.Popup;
+import marker_interfaces.Popup;
+
 
 /**
  * @author Steve Brown

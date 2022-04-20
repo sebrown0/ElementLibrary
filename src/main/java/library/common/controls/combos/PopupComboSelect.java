@@ -10,8 +10,8 @@ import org.openqa.selenium.WebElement;
 
 import core_data.CoreData;
 import library.common.exceptions.ElementDoesNotExistException;
-import library.dakar_hr.dk_grid.Cell;
-import library.dakar_hr.dk_grid.Popup;
+import library.grid.Cell;
+import marker_interfaces.Popup;
 import utils.text_writer.TextWriterComboDefault;
 
 /**

@@ -14,11 +14,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-//import com.sun.beans.finder.MethodFinder;
-
-//import com.sun.beans.finder.MethodFinder;
-
-//import common.JsPanelHeaderBar;
 import context_manager.ContextId;
 import context_manager.ContextIdGetter;
 import context_manager.ContextManager;
@@ -33,12 +28,7 @@ import control_builder.PageControl;
 import control_builder.control_getters.ControlGetter;
 import control_data.ControlData;
 import core_data.CoreData;
-import dynamic_tests.elements.SiteMapElement;
-import dynamic_tests.finders.MethodFinder;
-import dynamic_tests.finders.MethodGetter;
-//import dynamic_tests.elements.SiteMapElement;
-//import dynamic_tests.finders.MethodGetter;
-//import exceptions.PanelException;
+
 import library.common.controls.getters.ControlGetterFromPanel;
 import library.common.controls.interfaces.Control;
 import library.common.controls.interfaces.ControlName;
@@ -48,6 +38,9 @@ import library.common.forms.ContainerAction;
 import library.common.helpers.title.PageTitle;
 import library.common.helpers.title.TitlePanel;
 import library.common.interfaces.IFrame;
+import root.elements.SiteMapElement;
+import root.finders.MethodFinder;
+import root.finders.MethodGetter;
 
 /**
  * @author SteveBrown

@@ -3,7 +3,7 @@
  */
 package library.common.controls.data;
 
-import dynamic_tests.test_adders.TestAdderWithData;
+import root.test_adders.TestAdderWithData;
 
 /**
  * @author SteveBrown
@@ -18,6 +18,7 @@ public interface InsertItem {
 	 * 
 	 */
 	void insert(Object item, TestAdderWithData testAdder);
+//	void insert(Object item, Object testAdder);
 	/*
 	 * No TestDataInserter is specified so try using send keys
 	 * on the control. 
