@@ -28,7 +28,6 @@ import control_builder.PageControl;
 import control_builder.control_getters.ControlGetter;
 import control_data.ControlData;
 import core_data.CoreData;
-
 import library.common.controls.getters.ControlGetterFromPanel;
 import library.common.controls.interfaces.Control;
 import library.common.controls.interfaces.ControlName;
